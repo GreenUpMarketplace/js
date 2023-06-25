@@ -19,7 +19,7 @@ script.type = 'text/javascript';
 script.async = true;
 // ensure PageViews is always tracked (on script load)
 script.onload = () => {
-dataLayer.push({ event: 'gtm.js', 'gtm.start': new Date().getTime(), 'gtm.uniqueEventId': 0 });
+dataLayer.push({ event: 'gtm.js', 'gtm.start': new Date().getTime(), 'gtm.GTM-PG9T4J7': 0 });
 };
 script.src = 'https://www.googletagmanager.com/gtm.js?id=YOUR-GTM-ID-HERE';
 document.head.appendChild(script);
